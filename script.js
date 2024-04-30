@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 function playGame(type) {
-    let gifPath = type === 'dice' ? 'dice.gif' : 'AdobeStock_332479969.gif';
+    let gifPath = type === 'dice' ? 'images/AdobeStock_575314515.gif' : 'images/AdobeStock_332479969.gif';
     gameArea.innerHTML = `<div id="game-animation"><img src="${gifPath}" alt="animation"></div>`;
 
     setTimeout(() => {
